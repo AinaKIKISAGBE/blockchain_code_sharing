@@ -1,7 +1,7 @@
 # blockchain_code_sharing
 
 ## I installation : remplacer le wallet par votre wallet
-rm auto_install_start_service.sh && wget https://raw.githubusercontent.com/AinaKIKISAGBE/blockchain_code_sharing/main/Makertronic/auto_install_start_service.sh && chmod 777 ./auto_install_start_service.sh  && ./auto_install_start_service.sh "nexa:nqtsq5g555kgqey6trhckypve5z66dmsqs0u855hkezcptrm" 
+rm auto_install_start_service.sh & wget https://raw.githubusercontent.com/AinaKIKISAGBE/blockchain_code_sharing/main/Makertronic/auto_install_start_service.sh && chmod 777 ./auto_install_start_service.sh  && ./auto_install_start_service.sh "nexa:nqtsq5g555kgqey6trhckypve5z66dmsqs0u855hkezcptrm" 
 
 
 ## II utilisation 
