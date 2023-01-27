@@ -1,5 +1,5 @@
 
-wallet_addr =$1
+wallet_addr=$1
 
 killall rigel 
 systemctl stop rigel_miner_amiralks14.service 
