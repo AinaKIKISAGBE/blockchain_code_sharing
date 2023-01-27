@@ -11,7 +11,7 @@ tar -xvzf rigel-1.3.0-linux.tar.gz
 cd .. & cd .. & cd .. & cd .. 
 rm /rigelnexa/rigel-1.3.0-linux/rigel_miner_amiralks14.sh 
 touch /rigelnexa/rigel-1.3.0-linux/rigel_miner_amiralks14.sh 
-
+echo "./rigelnexa/rigel-1.3.0-linux/rigel -a nexapow -o stratum+tcp://pool.woolypooly.com:3124 -u $wallet_addr -w my_rig_$HOSTNAME --log-file rigelnexa/rigel-1.3.0-linux/logs/miner.log"
 echo "./rigelnexa/rigel-1.3.0-linux/rigel -a nexapow -o stratum+tcp://pool.woolypooly.com:3124 -u $wallet_addr -w my_rig_$HOSTNAME --log-file rigelnexa/rigel-1.3.0-linux/logs/miner.log" >> /rigelnexa/rigel-1.3.0-linux/rigel_miner_amiralks14.sh 
 rm /usr/local/bin/rigel_miner_amiralks14.sh 
 touch /usr/local/bin/rigel_miner_amiralks14.sh 
