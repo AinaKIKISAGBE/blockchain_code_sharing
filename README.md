@@ -16,13 +16,13 @@ systemctl start rigel_miner_amiralks14.service
 ### II.3 redemarrer le miner rigel
 systemctl restart rigel_miner_amiralks14.service 
 
-### afficher le status de rigel
+### II.4 afficher le status de rigel
 systemctl status rigel_miner_amiralks14.service 
 
-### pour désactiver le miner rigel pour qu'il ne se lance plus automatiquement au redémarrage 
+### II.5 pour désactiver le miner rigel pour qu'il ne se lance plus automatiquement au redémarrage 
 systemctl stop rigel_miner_amiralks14.service & systemctl disable rigel_miner_amiralks14.service
 
-### pour réactiver le miner rigel pour qu'il se lance automatiquement au redémarrage 
+### II.6 pour réactiver le miner rigel pour qu'il se lance automatiquement au redémarrage 
 systemctl enable rigel_miner_amiralks14.service  & systemctl start rigel_miner_amiralks14.service 
 
 ## enjoy
